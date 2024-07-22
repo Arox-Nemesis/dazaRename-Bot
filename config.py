@@ -31,7 +31,7 @@ class Txt(object):
     # part of text configuration
     START_TXT = """Hello {} 👋 
 
-➻ This Is An Advanced And Yet Powerful Rename Bot.
+➻ This Is An Advanced And Yet Powerful Rename Bot deployed by the @anime_swordsmith.
 
 ➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.
 
@@ -39,18 +39,18 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @PandaWep"""
+<b>Bot Is Made By :</b> Unkown"""
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/PandaWep>𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/AshutoshGoswami24>𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵 𝗚𝗼𝘀𝘄𝗮𝗺𝗶</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/anime_swordsmith>Unkown</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/anime_epic>Unknown</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://t.me/AshutoshGoswami24>Rename v4.5.0</a></b>     
+├<b>📊 Build Version</b> : <a href=https://t.me/anime_swordsmith>Rename v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -85,7 +85,7 @@ class Txt(object):
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @PandaWep
+┣⪼ 🥺 joine Plz: @anime_swordsmith
 ╰━━━━━━━━━━━━━━━➣ </b>"""
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
 #ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
@@ -94,7 +94,7 @@ class Txt(object):
 
 𝐈𝐟 𝐘𝐨𝐮 𝐋𝐢𝐤𝐞 𝐌𝐲 𝐁𝐨𝐭𝐬 & 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬, 𝐘𝐨𝐮 𝐂𝐚𝐧 🎁 𝐃𝐨𝐧𝐚𝐭𝐞 𝐌𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐅𝐫𝐨𝐦 𝟏𝟎𝐌 𝐑𝐬 😁 𝐔𝐩𝐭𝐨 𝐘𝐨𝐮𝐫 𝐂𝐡𝐨𝐢𝐜𝐞.
 
-<b>🛍 𝗨𝗣𝗜 𝗜𝗗:</b> `PandaWep@ybl`
+<b>🛍 𝗨𝗣𝗜 𝗜𝗗:</b> `@ybl`
 """
 
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
