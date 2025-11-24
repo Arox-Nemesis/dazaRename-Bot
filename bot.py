@@ -5,6 +5,8 @@ from pyrogram.raw.all import layer
 from config import Config
 from aiohttp import web
 from route import web_server
+from pyrogram.storage import MemoryStorage   # <<< ADD THIS
+
 
 class Bot(Client):
 
@@ -17,6 +19,8 @@ class Bot(Client):
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=15,
+
+            storage=MemoryStorage(),    # <<< FIX: USE MEMORY STORAGE FOR LEAPCELL
         )
 
     async def start(self):
@@ -38,11 +42,12 @@ class Bot(Client):
                 curr = datetime.now(timezone("Asia/Kolkata"))
                 date = curr.strftime('%d %B, %Y')
                 time = curr.strftime('%I:%M:%S %p')
-                await self.send_message(Config.LOG_CHANNEL, f"**{me.mention} Is Restarted !!**\n\n📅 Date : `{date}`\n⏰ Time : `{time}`\n🌐 Timezone : `Asia/Kolkata`\n\n🉐 Version : `v{__version__} (Layer {layer})`</b>")                                
+                await self.send_message(
+                    Config.LOG_CHANNEL,
+                    f"**{me.mention} Is Restarted !!**\n\n📅 Date : `{date}`\n⏰ Time : `{time}`\n🌐 Timezone : `Asia/Kolkata`\n\n🉐 Version : `v{__version__} (Layer {layer})`"
+                )                                
             except:
                 print("Please Make This Is Admin In Your Log Channel")
 
-Bot().run()
 
-#ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
-#ʀᴀᴘᴏ https://github.com/AshutoshGoswami24/Rename-Bot
+Bot().run()
