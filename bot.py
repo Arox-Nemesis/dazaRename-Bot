@@ -20,7 +20,7 @@ class Bot(Client):
             plugins={"root": "plugins"},
             sleep_threshold=15,
 
-            storage=MemoryStorage(),    # <<< FIX: USE MEMORY STORAGE FOR LEAPCELL
+            storage=MemoryStorage('renamer-session'),    # <<< FIX: USE MEMORY STORAGE FOR LEAPCELL
         )
 
     async def start(self):
